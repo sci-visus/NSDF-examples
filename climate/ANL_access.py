@@ -1,11 +1,7 @@
 import datetime
 import re
-import os
-import math
 import OpenVisus as ov
 import numpy as np
-
-os.environ['VISUS_CACHE'] = './visus_cache'
 
 
 def get_date_from_timestep(year: int, timestep: int) -> (int, int, int, int):
